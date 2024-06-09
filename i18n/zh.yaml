@@ -1,0 +1,33 @@
+- id: prev_page
+  translation: "⬆️"
+
+- id: next_page
+  translation: "⬇️"
+
+- id: read_time
+  translation:
+    one : "1 min"
+    other: "{{ .Count }} min"
+
+- id: words
+  translation: 
+    one: "Word"
+    other: "{{ .Count }} Word"
+
+- id: toc
+  translation: "目录|TOC"
+
+- id: translations
+  translation: "🌐"
+
+- id: home
+  translation: "主页|Home"
+
+- id: edit_post
+  translation: "📝"
+
+- id: code_copy
+  translation: "复制|Copy"
+
+- id: code_copied
+  translation: "已复制!|Copied"

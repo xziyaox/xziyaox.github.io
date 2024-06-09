@@ -1,0 +1,113 @@
+baseURL: https://xziyaox.github.io
+languageCode: en-US
+title: 子耀的小站
+theme: papermod
+
+enableInlineShortcodes: true
+enableEmoji: true
+enableRobotsTXT: true
+
+hasCJKLanguage: true
+
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+paginate: 10
+
+minify:
+  disableXML: true
+
+defaultContentLanguage: zh
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+params:
+  env: production
+  author: ["子耀"]
+  defaultTheme: auto
+  disableThemeToggle: false
+  DateFormat: "2006-01-02"
+  ShowShareButtons: false
+  ShowReadingTime: true
+  displayFullLangName: true
+  ShowPostNavLinks: false
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  hideFooter: false # 隐藏页脚
+  ShowWordCount: true
+  ShowLastMod: false #显示文章更新时间
+  ShowSeriesInPost: true
+  comments: false
+  fancybox: true
+
+  profileMode:
+    enabled: true
+    title: 子耀的小站
+    subtitle: Welcome to ZIYAO's Website
+    buttons:
+    - name: 关于本站
+      url: "about-website"
+    - name: 🔗
+      url: "friend-links"
+    - name: 关于我
+      url: "about-me"
+
+  socialIcons:
+  - name: Bilibili
+    url: "https://space.bilibili.com/1859472020"
+  - name: X
+    url: "https://x.com/@xziyaox"
+  - name: Github
+    url: "https://github.com/xziyaox"
+
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 1
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary"]
+
+taxonomies:
+    category: categories
+    tag: tags
+    series: series
+
+markup:
+    goldmark:
+        renderer:
+            unsafe: true
+    highlight:
+        codeFences: true
+        guessSyntax: true
+        lineNos: true
+
+privacy:
+    vimeo:
+        disabled: false
+        simple: true
+
+    twitter:
+        disabled: false
+        enableDNT: true
+        simple: true
+
+    instagram:
+        disabled: false
+        simple: true
+
+    youtube:
+        disabled: false
+        privacyEnhanced: true
+
+services:
+    instagram:
+        disableInlineCSS: true
+    twitter:
+        disableInlineCSS: true

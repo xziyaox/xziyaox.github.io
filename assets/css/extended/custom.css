@@ -1,0 +1,28 @@
+/* 自定义post_meta图标 */
+.x-post-meta-item {
+  display: inline-block;
+}
+
+.x-post-meta-item svg {
+  width: 1em;
+  height: 1em;
+  display: inline-block;
+  vertical-align: -0.15em;
+  margin-right: 4px;
+}
+
+/* 文章内显示系列 */
+.x-post-series {
+  padding: 16px 0;
+}
+
+/* 显示置顶转载图标 */
+.x-entry-istop {
+  font-size: 15px;
+  color: var(--secondary)/*#cd201f*/;
+}
+
+.x-entry-isouter {
+  font-size: 15px;
+  color: var(--secondary)/*#2db7f5*/;
+}
