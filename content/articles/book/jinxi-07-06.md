@@ -5,7 +5,7 @@ lastmod: 2024-07-06T11:57:10+08:00 #更新时间
 author: ["今夕何夕"] #作者
 categories:
 tags:
-description: "" #描述
+description: "同人作品" #描述
 weight: # 输入1可以顶置文章，用来给文章展示排序，不填就默认按时间排序
 url: /book/jinxi-07-06
 draft: false # 是否为草稿
